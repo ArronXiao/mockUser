@@ -11,7 +11,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="image_grey.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mouse_cap.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mouse_cap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mouse_operate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mouse_operator/mouse_operate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image_grey.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image_handle/image_grey.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -23,8 +41,8 @@
       <file leaf-file-name="testmain.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testmain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="171">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -47,13 +65,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compute_info.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/info/compute_info.py">
+      <file leaf-file-name="window_hanlder_operator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/window_manager/window_hanlder_operator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="165">
+              <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
               <folding>
-                <element signature="e#45#58#0" expanded="true" />
+                <element signature="e#24#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,16 +143,17 @@
         <option value="$PROJECT_DIR$/photo_match.py" />
         <option value="$PROJECT_DIR$/mem_op.py" />
         <option value="$PROJECT_DIR$/position_cap.py" />
-        <option value="$PROJECT_DIR$/window_manager/window_hanlder_operator.py" />
         <option value="$PROJECT_DIR$/image_operator/image_grey.py" />
         <option value="$PROJECT_DIR$/testmain.py" />
         <option value="$PROJECT_DIR$/image_handle/image_grey.py" />
+        <option value="$PROJECT_DIR$/mouse_operator/mouse_operate.py" />
+        <option value="$PROJECT_DIR$/window_manager/window_hanlder_operator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="718" />
-    <option name="y" value="168" />
+    <option name="x" value="452" />
+    <option name="y" value="96" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -155,22 +174,12 @@
             <path>
               <item name="ForMock" type="b2602c69:ProjectViewProjectNode" />
               <item name="ForMock" type="462c0819:PsiDirectoryNode" />
-              <item name="file_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="mouse_operator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ForMock" type="b2602c69:ProjectViewProjectNode" />
               <item name="ForMock" type="462c0819:PsiDirectoryNode" />
-              <item name="image_handle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ForMock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ForMock" type="462c0819:PsiDirectoryNode" />
-              <item name="info" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ForMock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ForMock" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy_photo" type="462c0819:PsiDirectoryNode" />
+              <item name="window_manager" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testmain">
+  <component name="RunManager" selected="Python.window_hanlder_operator">
     <configuration name="position_cap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ForMock" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,8 +307,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testmain" />
         <item itemvalue="Python.window_hanlder_operator" />
+        <item itemvalue="Python.testmain" />
         <item itemvalue="Python.scrapy_screen" />
         <item itemvalue="Python.position_cap" />
         <item itemvalue="Python.window_cap" />
@@ -329,20 +338,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="718" y="168" width="1400" height="1000" extended-state="0" />
+    <frame x="233" y="513" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21365638" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21365638" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32824427" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40882695" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40882695" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2944384" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35986915" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35888502" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -582,16 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/window_manager/window_hanlder_operator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mem_op.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -599,13 +598,6 @@
           <folding>
             <element signature="e#16#59#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mouse_cap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -660,16 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_screen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#45#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -685,8 +667,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testmain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="171">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_screen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#45#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mouse_cap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mouse_operator/mouse_operate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -694,6 +700,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/window_manager/window_hanlder_operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

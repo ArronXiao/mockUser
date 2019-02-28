@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import win32gui
+import win32api
 import sys
+import time
 
 import win32con
 
@@ -29,8 +31,12 @@ def get_child_windows(parent):
 
 def active_window(hwnd):
     print"--------------- 激活窗口： ", hwnd
-    win32gui.SetForegroundWindow(hwnd)
-    win32gui.ShowWindow(hwnd, win32con.SW_SHOWNORMAL)
+    # win32gui.SetForegroundWindow(hwnd)
+    # win32gui.ShowWindow(hwnd, win32con.SW_SHOWNORMAL)
+    win32api.PostMessage(hwnd, win32con.WM_MOUSEMOVE, 0, win32api.MAKELONG(39, 61))
+    time.sleep(1)
+    win32api.PostMessage(hwnd, win32con.WM_LBUTTONDOWN, 0, win32api.MAKELONG(39, 61))
+    win32api.PostMessage(hwnd, win32con.WM_LBUTTONUP, 0, win32api.MAKELONG(39, 61))
 
 def getHwndByTitle(title):
     print("")
